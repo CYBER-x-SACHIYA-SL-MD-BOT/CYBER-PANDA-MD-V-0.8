@@ -10,7 +10,7 @@ module.exports = {
     SESSION_ID:            process.env.SESSION_ID || "Panda~s4ivTWgeV5bq",
     PREFIX:                process.env.PREFIX || ".",
     BOT_NAME:              process.env.BOT_NAME || "CYBER-PANDA-MD-V.10",
-    OWNER_NUMBER:          process.env.OWNER_NUMBER || "94760220052",
+    OWNER_NUMBER:          process.env.OWNER_NUMBER || "+94702782946",
     OWNER_NAME:            process.env.OWNER_NAME || "CYBER-PANDA-MD-V.10",
     DESCRIPTION:           process.env.DESCRIPTION || "CYBER-PANDA-MD-V.10",
     ALIVE_IMG:             process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
