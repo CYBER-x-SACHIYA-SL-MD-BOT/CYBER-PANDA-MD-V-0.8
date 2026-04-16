@@ -1,0 +1,37 @@
+const fs = require('fs');
+if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+
+function toBool(val, defaultOn = true) {
+    if (val === undefined || val === null || val === '') return defaultOn;
+    return val.toLowerCase() !== 'false';
+}
+
+module.exports = {
+    SESSION_ID:            process.env.SESSION_ID || "",
+    PREFIX:                process.env.PREFIX || ".",
+    BOT_NAME:              process.env.BOT_NAME || "CYBER-PANDA-MD-V.10",
+    OWNER_NUMBER:          process.env.OWNER_NUMBER || "94760220052",
+    OWNER_NAME:            process.env.OWNER_NAME || "CYBER-PANDA-MD-V.10",
+    DESCRIPTION:           process.env.DESCRIPTION || "CYBER-PANDA-MD-V.10",
+    ALIVE_IMG:             process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
+    LIVE_MSG:              process.env.LIVE_MSG || "Cyber Panda MD Is Active",
+    MODE:                  process.env.MODE || "both",
+    AUTO_STATUS_SEEN:      toBool(process.env.AUTO_STATUS_SEEN,      true),
+    AUTO_STATUS_REACT:     toBool(process.env.AUTO_STATUS_REACT,     true),
+    AUTO_STATUS_REPLY:     toBool(process.env.AUTO_STATUS_REPLY,     false),
+    AUTO_STATUS_MSG:       process.env.AUTO_STATUS_MSG || "Seen by Panda Md",
+    CUSTOM_REACT_EMOJIS:   process.env.CUSTOM_REACT_EMOJIS || "❤️,🔥,💯,😍,👏,💙,🙌",
+    READ_MESSAGE:          toBool(process.env.READ_MESSAGE,          false),
+    AUTO_REACT_NEWSLETTER:   toBool(process.env.AUTO_REACT_NEWSLETTER,   true),
+    AUTO_FOLLOW_NEWSLETTER:  true,
+    ANTI_BAD:              toBool(process.env.ANTI_BAD,              false),
+    ALWAYS_ONLINE:         toBool(process.env.ALWAYS_ONLINE,         true),
+    AUTO_TYPING:           toBool(process.env.AUTO_TYPING,           true),
+    AUTO_RECORDING:        toBool(process.env.AUTO_RECORDING,        false),
+    DELETE_LINKS:          toBool(process.env.DELETE_LINKS,          false),
+    ANTIDELETE_GROUP:      toBool(process.env.ANTIDELETE_GROUP,      true),
+    ANTIDELETE_PRIVATE:    toBool(process.env.ANTIDELETE_PRIVATE,    true),
+    ANTILINK:              toBool(process.env.ANTILINK,               false),
+    ANTIVV:                toBool(process.env.ANTIVV,                 true),
+    DEBUG:                 toBool(process.env.DEBUG,                 false),
+};
