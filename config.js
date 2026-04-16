@@ -7,7 +7,7 @@ function toBool(val, defaultOn = true) {
 }
 
 module.exports = {
-    SESSION_ID:            process.env.SESSION_ID || "",
+    SESSION_ID:            process.env.SESSION_ID || "Panda~s4ivTWgeV5bq",
     PREFIX:                process.env.PREFIX || ".",
     BOT_NAME:              process.env.BOT_NAME || "CYBER-PANDA-MD-V.10",
     OWNER_NUMBER:          process.env.OWNER_NUMBER || "94760220052",
