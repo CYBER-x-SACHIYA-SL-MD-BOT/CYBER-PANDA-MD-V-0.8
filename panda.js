@@ -95,8 +95,8 @@ async function loadSession() {
             }
 
             const [header, b64data] = config.SESSION_ID.split('~');
-            if (header !== "Silva" || !b64data) {
-                throw new Error("❌ Invalid session format. Expected 'Silva~.....'");
+            if (header !== "Panda" || !b64data) {
+                throw new Error("❌ Invalid session format. Expected 'Panda.....'");
             }
 
             const cleanB64 = b64data.replace('...', '');
