@@ -5,7 +5,7 @@ A modular WhatsApp bot built with Baileys (multi-device), featuring an admin das
 ## Architecture
 
 - **Runtime**: Node.js 20
-- **Entry point**: `silva.js`
+- **Entry point**: `Panda.js`
 - **Web dashboard**: `smm/silva.html` — served via Express at port 5000
 - **Plugins**: `plugins/` directory — loaded dynamically on start
 - **Config**: `config.js` reads from `config.env` (if present) or environment variables
