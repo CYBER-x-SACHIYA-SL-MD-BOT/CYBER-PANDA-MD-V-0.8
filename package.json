@@ -1,15 +1,15 @@
 {
-  "name": "silva-md-bot",
-  "version": "1.0.0",
-  "description": "Silva MD WhatsApp Bot using Baileys",
+  "name": "CYBER-PANDA-MD-V-0.8",
+  "version": "0.0.8",
+  "description": "CYBER-PANDA-MD-V-0.8 WhatsApp Bot using Baileys",
   "main": "silva.js",
   "scripts": {
-    "start": "node silva.js"
+    "start": "node Panda.js"
   },
   "engines": {
     "node": ">=20.0.0"
   },
-  "author": "Silva",
+  "author": "CYBER-PANDA-MD-V-0.8",
   "license": "Apache-2.0",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
