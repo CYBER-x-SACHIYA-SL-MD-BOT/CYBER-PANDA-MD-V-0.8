@@ -1,6 +1,6 @@
-# ⚡ **SILVA MD BOT & SILVATRIX— VERSION 5.0 IS HERE!** ⚡
+# 🧿 **CYBER PANDA MD BOT VERSION 0.8 IS HERE!** 💥
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=32\&duration=3000\&pause=700\&color=FF00A6\&center=true\&vCenter=true\&width=1000\&height=80\&lines=🚀+Welcome+to+SILVA+MD+BOT+v5.0;🤖+Now+Smarter%2C+Faster%2C+and+More+Magical;💬+Powered+by+Silva+Tech+AI+Labs;✨+Optimized+for+2025+and+Beyond!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=32\&duration=3000\&pause=700\&color=FF00A6\&center=true\&vCenter=true\&width=1000\&height=80\&lines=🚀+Welcome+to+CYBER+PANDA+MD+BOT+0.8;🤖+Now+Smarter%2C+Faster%2C+and+More+Magical;💬+Powered+by+Silva+Tech+AI+Labs;✨+Optimized+for+2025+and+Beyond!)](https://git.io/typing-svg)
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
