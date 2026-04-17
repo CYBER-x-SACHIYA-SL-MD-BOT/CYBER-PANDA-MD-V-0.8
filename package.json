@@ -2,7 +2,7 @@
   "name": "CYBER-PANDA-MD-V-0.8",
   "version": "0.0.8",
   "description": "CYBER-PANDA-MD-V-0.8 WhatsApp Bot using Baileys",
-  "main": "silva.js",
+  "main": "Panda.js",
   "scripts": {
     "start": "node Panda.js"
   },
