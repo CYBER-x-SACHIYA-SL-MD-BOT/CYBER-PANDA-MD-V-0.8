@@ -859,8 +859,8 @@ async function connectToWhatsApp() {
 
 // ✅ Express Web API
 const app = express();
-app.use(express.static(path.join(__dirname, 'smm')));
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'smm', 'silva.html')));
+app.use(express.static(path.join(__dirname, 'Panda')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'Panda', 'Panda.html')));
 app.get('/health', (req, res) => res.send(`✅ ${config.BOT_NAME} is Running!`));
 
 app.listen(port, () => {
