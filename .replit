@@ -28,7 +28,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node silva.js"
+args = "node panda.js"
 waitForPort = 5000
 
 [workflows.workflow.metadata]
@@ -40,4 +40,4 @@ externalPort = 80
 
 [deployment]
 deploymentTarget = "vm"
-run = ["node", "silva.js"]
+run = ["node", "panda.js"]
